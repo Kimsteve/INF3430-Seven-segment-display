@@ -1,0 +1,34 @@
+
+# PlanAhead Generated physical constraints 
+
+
+# PlanAhead Generated physical constraints 
+
+NET "mclk" LOC = T9;
+#NET "mclk" CLOCK_DEDICATED_ROUTE;
+NET "reset" LOC = M14;
+NET "BTN0" LOC = M13;
+NET "SWT[1]" LOC = K13;
+NET "SWT[0]" LOC = K14;
+NET "INP[0]" LOC = F12;
+NET "INP[1]" LOC = G12;
+NET "INP[2]" LOC = H14;
+NET "INP[3]" LOC = H13;
+
+NET "a_n[0]" LOC = D14;
+NET "a_n[1]" LOC = G14;
+NET "a_n[2]" LOC = F14;
+NET "a_n[3]" LOC = E13;
+
+NET "abcdefgdec_n[0]" LOC = N16; #f14
+NET "abcdefgdec_n[1]" LOC = F13;
+NET "abcdefgdec_n[2]" LOC = R16;
+NET "abcdefgdec_n[3]" LOC = P15;
+NET "abcdefgdec_n[4]" LOC = N15;
+NET "abcdefgdec_n[5]" LOC = G13;
+NET "abcdefgdec_n[6]" LOC = E14;
+
+#Constraint for klokkenett
+#NET "mclk" TNM_NET = CLK;
+#TIMESPEC TS_CLK = PERIOD "mclk" 20 ns HIGH 50%;
+
